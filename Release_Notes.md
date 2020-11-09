@@ -34,7 +34,19 @@ This driver provides a set of audio functions offered by MX25LM51245G OCTOSPI co
 # Update History
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true">
+<label for="collapse-section4" aria-hidden="true">__V2.0.2 / 05-February-2020__</label>
+<div>			
+
+## Main Changes
+
+-	Minor chanage to fix misra warnings
+
+</div>
+:::
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section3" aria-hidden="true">
 <label for="collapse-section3" aria-hidden="true">__V2.0.1 / 15-November-2019__</label>
 <div>			
 
@@ -46,7 +58,7 @@ This driver provides a set of audio functions offered by MX25LM51245G OCTOSPI co
 :::
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section2" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section2" aria-hidden="true">
 <label for="collapse-section2" aria-hidden="true">__V2.0.0 / 30-October-2019__</label>
 <div>			
 
@@ -65,7 +77,7 @@ This version breaks the compatibility with previous versions
 :::
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section1" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section1" aria-hidden="true">
 <label for="collapse-section1" aria-hidden="true">__V1.0.0 / 07-August-2017__</label>
 <div>			
 
