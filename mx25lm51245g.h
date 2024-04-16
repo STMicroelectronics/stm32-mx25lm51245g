@@ -7,13 +7,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2018 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2017-2022 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
   */
@@ -124,7 +123,7 @@ extern "C" {
 #define MX25LM51245G_READ_CFG_REG_CMD                     0x15U   /*!< Read configuration Register                           */
 #define MX25LM51245G_WRITE_STATUS_REG_CMD                 0x01U   /*!< Write Status Register                                 */
 #define MX25LM51245G_READ_CFG_REG2_CMD                    0x71U   /*!< Read configuration Register2                          */
-#define MX25LM51245G_WRITE_CFG_REG2_CMD                   0x72U   /*!< Write configuration Register2                                */
+#define MX25LM51245G_WRITE_CFG_REG2_CMD                   0x72U   /*!< Write configuration Register2                         */
 #define MX25LM51245G_READ_FAST_BOOT_REG_CMD               0x16U   /*!< Read fast boot Register                               */
 #define MX25LM51245G_WRITE_FAST_BOOT_REG_CMD              0x17U   /*!< Write fast boot Register                              */
 #define MX25LM51245G_ERASE_FAST_BOOT_REG_CMD              0x18U   /*!< Erase fast boot Register                              */
@@ -377,5 +376,3 @@ int32_t MX25LM51245G_EnterPowerDown(OSPI_HandleTypeDef *Ctx, MX25LM51245G_Interf
 /**
   * @}
   */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
